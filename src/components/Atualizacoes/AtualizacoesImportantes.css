@@ -1,0 +1,82 @@
+.container-atualizacoes-imp {
+    padding-left: 32px;
+}
+
+.atualizacoes-imp-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #303B5B;
+    margin-bottom: 24px;
+}
+
+.atualizacoes-imp-cards {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.atualizacoes-imp-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 496px;
+    height: 128px;
+    padding-left: 16px;
+    margin-right: 16px;
+    border-radius: 6px;
+}
+
+.paciente-photo {
+    width: 96px;
+    margin-right: 16px;
+}
+
+.paciente-style {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgba(48, 59, 91, 0.3);
+}
+
+.paciente-name-imp {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    color: #303B5B;
+    margin: 8px 0px 8px 0px;
+}
+
+.paciente-status-text{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.paciente-status1-green {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color: #1EAC79;
+}
+
+.paciente-status2-green {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1EAC79;
+}
+
+.paciente-status1-red {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color: #EF0C35;
+}
+
+.paciente-status2-red {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    color: #EF0C35;
+}

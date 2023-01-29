@@ -1,0 +1,112 @@
+.container-menu {
+    height: 100vh;
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-left: 48px;
+    padding-right: 24px;
+    width: 265px;
+}
+
+.logo-icon {
+    width: 32px;
+}
+
+.logo-text1 {
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    padding-left: 8px;
+}
+
+.logo-text2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff
+}
+
+.line {
+    width: 205px;
+    height: 1px;
+    background-color: #fff;
+    margin-left: 48px;
+    margin-top: 22px;
+    margin-bottom: 18px;
+    opacity: 0.1;
+}
+
+.dashboard {
+    padding-left: 48px;
+}
+
+.dashboard-button {
+    position: relative;
+    background-color: #EFF2F9;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 25px 0px 0px 25px;
+    cursor: pointer;
+}
+
+.dashboard-button::before {
+    content: "";
+    position: absolute;
+    
+    right: 0px;
+    bottom: -50px;
+    height: 50px;
+    width: 32px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 -25px 0 0 #EFF2F9;
+}
+
+.dashboard-button::after {
+    content: "";
+    position: absolute;
+    
+    right: 0;
+    bottom: 48px;
+    height: 50px;
+    width: 32px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 25px 0 0 #EFF2F9;
+}
+
+.home-icon, .box-icon {
+    width: 18px;
+}
+
+.home-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #303B5B;
+    padding-left: 12px;
+}
+
+.pacientes {
+    display: flex;
+    align-items: center;
+    padding-left: 68px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.testes, .config {
+    display: flex;
+    align-items: center;
+    padding-left: 68px;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.menu-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 12px;
+}
+

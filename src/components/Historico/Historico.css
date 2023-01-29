@@ -1,0 +1,155 @@
+.container-historico {
+    display: grid;
+}
+
+.historico-principal {
+    display: flex;
+    align-items: center;
+    margin: 48px 0 24px 32px;
+}
+
+.historico-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #303B5B
+}
+
+.btn-ver-todos {
+    background: linear-gradient(120deg, #00A3FF, #0057FF);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 22px;
+    margin-right: 792px;
+}
+
+.mais-realizado-first {
+    font-size: 18px;
+    font-weight: bold;
+    color: #303B5B;
+}
+
+.historico-cards {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    width: 1138px;
+    margin-right: 16px;
+}
+
+.historico-card {
+    margin: 16px 0 16px 16px;
+    border: solid 1px #EDF1F8;
+    border-radius: 6px;
+}
+
+.historico-image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('src/assets/imgs/card-bg.png');
+    width: 262px;
+    height: 136px;
+}
+
+.historico-icon {
+    width: 60px;
+}
+
+.historico-dados {
+    padding: 16px 0 16px 16px;
+}
+
+.paciente-name-hist {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    color: #303B5B;
+}
+
+.text-style1 {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgba(48, 59, 91, 0.3);
+    margin-top: 8px;
+}
+
+.text-style2 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: #303B5B;
+}
+
+.historico-card-last {
+    margin-left: 32px;
+    height: 330px;
+}
+
+.historico-image-box-last {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    width: 368px;
+    height: 326px;
+    padding-left: 16px;
+}
+
+.bg-card-last {
+    background-color: white;
+    background-image: url('src/assets/imgs/card-bg-big.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    border-radius: 6px;
+}
+
+.historico-icon-last {
+    width: 93px;
+    margin-left: 120px;
+    margin-top: 24px;
+}
+
+.mais-realizado-title {
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 700;
+    color: #303B5B;
+}
+
+.mais-realizado-subtitle {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgba(48, 59, 91, 0.3);
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.mais-realizado-quant{
+    display: flex;
+    align-items: center;
+}
+
+.btn-comprar-mais {
+    background: linear-gradient(120deg, #00A3FF, #0057FF);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 18px;
+    margin-left: 16px;
+}

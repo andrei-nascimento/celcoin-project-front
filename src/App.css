@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(120deg, #0223f6, #0acec5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.app {
+  background-image: url('assets/imgs/artboard.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 40px;
+}
+
+.menu {
+  width: 275px;
+}
+
+.home {
+  background-color: #EFF2F9;
+  border-radius: 30px;
+}

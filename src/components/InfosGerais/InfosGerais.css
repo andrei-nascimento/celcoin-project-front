@@ -14,6 +14,22 @@
     padding-left: 32px;
 }
 
+.infos-card-main {
+    display: inline-block;
+}
+
+.back-white-box {
+    position: relative;
+    background-color: #fff;
+    width: 296px;
+    height: 8px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin: 0px 16px 0px 56px;
+    box-shadow: 0px 8px 20px 2px rgba(0,0,0,.1);
+    opacity: 0.5;
+}
+
 .infos-card {
     width: 368px;
     height: 176px;
@@ -21,6 +37,97 @@
     border-radius: 6px;
     padding-left: 16px;
     margin-right: 16px;
+    box-shadow: 0px 8px 20px 2px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.infos-card:hover {
+    width: 368px;
+    height: 176px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding-left: 16px;
+    margin-right: 16px;
+    box-shadow: 0px 10px 20px 2px rgba(0,0,0,.2);
+}
+
+.up-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 144px;
+    height: 80px;
+    box-shadow: 0px 8px 20px 2px rgba(0,0,0,.1);
+    z-index: 1;
+    border-radius: 8px;
+    margin-top: -225px;
+    margin-left: 208px;
+}
+
+.up-menu-big {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 192px;
+    height: 80px;
+    box-shadow: 0px 8px 20px 2px rgba(0,0,0,.1);
+    z-index: 1;
+    border-radius: 8px;
+    margin-top: -225px;
+    margin-left: 160px;
+}
+
+.up-menu .sub-box-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #303B5A;
+    padding: 16px 0 0 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.up-menu-big .sub-box-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #303B5A;
+    padding: 16px 0 0 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.up-menu .sub-box-subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1CBF84;
+    padding: 2px 0 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.up-menu-big .sub-box-subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1CBF84;
+    padding: 2px 0 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.up-menu-big .sub-box-subtitle-red {
+    font-size: 22px;
+    font-weight: bold;
+    color: #EB0D35;
+    padding: 2px 0 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.infos-card-main:hover .up-menu {
+    display: block;
+}
+
+.infos-card-main:hover .up-menu-big {
+    display: block;
 }
 
 .card-icon {
@@ -31,7 +138,7 @@
 .infos-basic {
     display: flex;
     align-items: center;
-    margin-top: 16px;
+    padding-top: 16px;
 }
 
 .porcentagem-box-green {

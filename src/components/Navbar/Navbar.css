@@ -34,7 +34,7 @@
     font-family: Open Sans;
     font-weight: 400;
     color: rgba(44, 46, 61, 0.8);
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .navbar-icons {
@@ -47,18 +47,72 @@
 
 .settings-icon, .notification-icon {
     width: 22px;
+    cursor: pointer;
 }
 
 .perfil {
+    display: inline-block;
+}
+
+.btn-perfil {
     display: flex;
     align-items: center;
     background-color: rgba(47, 68, 134, 0.05);
     padding: 8px 8px 8px 14px;
     border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 152px;
+    box-shadow: 0px 8px 20px 2px rgba(0,0,0,.1);
+    z-index: 1;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.dropdown-menu a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #303B5A;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.perfil:hover .dropdown-menu {
+    display: block;
+}
+
+.borders-menu {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.logout-box {
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.logout-icon {
+    margin-right: 8px;
+    margin-left: 16px;
+}
+
+.logout-text {
+    padding: 10px 0 8px 0px !important;
 }
 
 .perfil-text1 {
     font-family: Open Sans;
+    font-size: 14px;
     font-weight: 400;
     color: #565468;
     padding: 0 4px;
@@ -66,6 +120,7 @@
 
 .perfil-text2 {
     font-family: Open Sans;
+    font-size: 14px;
     font-weight: 700;
     color: #565468;
     padding-right: 12px;
@@ -83,4 +138,5 @@
 
 .apps-icon {
     width: 20px;
+    cursor: pointer;
 }

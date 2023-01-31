@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Menu.css'
 import logo from '../../assets/imgs/jam_aperture.png'
 import house from '../../assets/imgs/house.png'
 import box from '../../assets/imgs/box-icon.png'
+// import darkBox from '../../assets/imgs/dark-box.png'
 import { Link } from 'react-router-dom'
 
 function Menu () {
+    const [isActive, setIsActive] = useState(true);
+
+    const handleClick = event => {
+        // 👇️ toggle isActive state on click
+        setIsActive(current => !current);
+    };
+
     return (
         <div className='container-menu'>
             <div className='logotipo'>
@@ -27,8 +35,10 @@ function Menu () {
             
             <Link to='/pacientes' className='link'>
                 <div className='pacientes'>
-                    <img className='box-icon' src={box} alt="box icon" />
-                    <p className='menu-text'>Pacientes</p>
+                    <div className='pacientes-button'>
+                        <img className='pacientes-icon' src={box} alt="box icon" />
+                        <p className='pacientes-text'>Pacientes</p>
+                    </div>
                 </div>
             </Link>
 

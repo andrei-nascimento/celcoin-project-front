@@ -77,6 +77,19 @@ function AtualizacoesPacientes() {
                         <p className="text-style2">20/09/2023</p>
                     </div>
                 </div>
+
+                <div className="atualiza-pac-card">
+                    <div className="atualiza-pac-image-box">
+                        <img className="atualiza-pac-icon" src={autismoIcon} alt="" />
+                    </div>
+                    <div className="atualiza-pac-dados">
+                        <p className="atualiza-pac-name-hist">Renata Augusto Ferreira</p>
+                        <p className="text-style1">TESTE REALIZADO</p>
+                        <p className="text-style2">Autismo</p>
+                        <p className="text-style1">REALIZADO EM:</p>
+                        <p className="text-style2">20/09/2023</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

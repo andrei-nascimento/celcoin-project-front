@@ -86,11 +86,50 @@
 }
 
 .pacientes {
+    padding-left: 48px;
+    margin-top: 40px;
+}
+
+.pacientes-button {
+    position: relative;
     display: flex;
     align-items: center;
-    padding-left: 68px;
-    margin-top: 40px;
+    padding: 4px 20px;
+    border-radius: 25px 0px 0px 25px;
     cursor: pointer;
+}
+
+/* .pacientes-button::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    height: 50px;
+    width: 32px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 -25px 0 0 #EFF2F9;
+}
+
+.pacientes-button::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 52px;
+    height: 50px;
+    width: 32px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 25px 0 0 #EFF2F9;
+} */
+
+.pacientes-icon {
+    width: 18px;
+}
+
+.pacientes-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 12px;
 }
 
 .testes, .config {

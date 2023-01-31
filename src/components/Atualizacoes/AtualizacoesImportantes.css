@@ -81,3 +81,15 @@
     font-weight: 700;
     color: #EF0C35;
 }
+
+.atualizacoes-imp-card-suelton {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(120deg, #fff 50%, transparent 100%);
+    width: 496px;
+    height: 128px;
+    padding-left: 16px;
+    margin-right: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}

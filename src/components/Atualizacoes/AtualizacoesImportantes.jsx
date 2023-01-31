@@ -48,7 +48,7 @@ function AtualizacoesImportantes() {
                     </div>
                 </div>
 
-                <div className="atualizacoes-imp-card">
+                <div className="atualizacoes-imp-card-suelton">
                     <img className="paciente-photo" src={paciente3} alt="foto paciente" />
 
                     <div className="paciente-description-imp">

@@ -21,3 +21,5 @@ Foram incluídos efeitos que dão um tom de suavidade e sofisticação para a ap
 
 Há algumas funções a qual não consegui desenvolver ainda, sendo em principal as animações dos cards e a troca no destaque de fundo de cada item clicado.
 No momento está fixo na aba Dashboard mesmo clicando em outra aba.
+
+Optei por fazer o desenvolvimento do projeto sem usar qualquer tipo de Framework visual, isso porque queria exercitar meu código em CSS puro, a qual fiquei muito contente com o resultado. Porém, acredito que futuramente pela maior facilidade e enxutamento do código, aplicar um framework visual facilitará a visualização e o entendimento do código como um todo.

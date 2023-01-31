@@ -1,10 +1,10 @@
 # Projeto Celcoin Frontend
 
-## Painel Médico - Teste Frontend
+## Painel Médico - Teste
 
 Esta é uma aplicação construída a partir de um desafio de frontend da empresa Celcoin, desenvolvida em React e tendo como referência de layout o Figma.
 
-Para ver o projeto em ação basta acessar o link: celcoin-project-front.netlify.app
+Para ver o projeto em ação basta acessar o link: [celcoin-project-front.netlify.app](https://celcoin-project-front.netlify.app/)
 
 ## O Projeto
 ![cap1](https://user-images.githubusercontent.com/76922943/215873959-0d5a479e-f1f0-4e96-b807-e35bee9f69a5.png)

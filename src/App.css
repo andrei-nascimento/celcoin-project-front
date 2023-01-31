@@ -14,14 +14,5 @@ body {
   grid-template-columns: 1fr 12fr;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-right: 40px;
-}
-
-.menu {
-  width: 275px;
-}
-
-.home {
-  background-color: #EFF2F9;
-  border-radius: 30px;
+  padding-right: 100px;
 }

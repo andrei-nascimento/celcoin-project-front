@@ -1,0 +1,169 @@
+.todos-pacientes-container {
+    display: grid;
+    padding-left: 32px;
+    height: 456px;
+    margin-top: 20px;
+}
+
+.todos-pacientes-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #303B5B;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.busca-pacientes-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(86, 84, 104, 0.6);
+}
+
+.busca-lista-pacientes {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.busca-box {
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.busca-pacientes {
+    background-color: #fff;
+    border-radius: 6px;
+    width: 1520px;
+    height: 408px;
+    padding-left: 16px;
+}
+
+.busca-pacientes-cards {
+    width: 1488px;
+}
+
+.busca-pacientes-card {
+    display: flex;
+    align-items: center;
+    height: 96px;
+    border: solid 1px #EFF2F9;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.busca-pacientes-dados {
+    display: flex;
+    align-items: center;
+    padding: 16px 50px 16px 16px;
+    border-right: solid 1px #EFF2F9;
+}
+
+.paciente-photo-list {
+    width: 64px;
+    margin-right: 16px;
+}
+
+.paciente-name {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #303B5B;
+}
+
+.paciente-diagnostico {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgba(48, 59, 91, 0.3);
+    margin-bottom: 8px;
+}
+
+.paciente-singularidade {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1EAC79;
+}
+
+.testes-realizados, .testes-cancelados, .testes-pendentes {
+    padding: 6px 16px 16px 16px;
+    border-right: solid 1px #EFF2F9;
+}
+
+.testes-realizados-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1EAC79;
+}
+
+.testes-realizados-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1EAC79;
+}
+
+.testes-cancelados-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #EF0C35;
+}
+
+.testes-cancelados-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #EF0C35;
+}
+
+.testes-pendentes-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF6B00;
+}
+
+.testes-pendentes-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FF6B00;
+}
+
+.edit-icon-box {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #EFF2F9;
+    border-radius: 25px;
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    margin-left: 248px;
+}
+
+.btn-enviar-novo-teste {
+    background: linear-gradient(120deg, #FF00C7, #FF005C);
+    color: white;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 144px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.btn-alterar-cadastro {
+    background: linear-gradient(120deg, #00A3FF, #0057FF);
+    color: white;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 144px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

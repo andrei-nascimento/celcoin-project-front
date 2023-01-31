@@ -1,0 +1,78 @@
+.container-atualiza-pac {
+    display: grid;
+    height: 368px;
+}
+
+.atualiza-pac-principal {
+    display: flex;
+    align-items: center;
+    margin: 0 0 24px 32px;
+    height: 24px;
+}
+
+.atualiza-pac-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #303B5B
+}
+
+.atualiza-pac-cards {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    width: 1520px;
+    height: 320px;
+    margin-right: 16px;
+    box-shadow: 0px 2px 20px 2px rgba(0,0,0,.1);
+}
+
+.atualiza-pac-card {
+    margin: 16px 0 16px 16px;
+    border: solid 1px #EDF1F8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.atualiza-pac-image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('src/assets/imgs/card-bg.png');
+    width: 262px;
+    height: 136px;
+}
+
+.atualiza-pac-icon {
+    width: 60px;
+}
+
+.atualiza-pac-dados {
+    padding: 16px 0 16px 16px;
+}
+
+.atualiza-pac-name-hist {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    color: #303B5B;
+}
+
+.text-style1 {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgba(48, 59, 91, 0.3);
+    margin-top: 8px;
+}
+
+.text-style2 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: #303B5B;
+}

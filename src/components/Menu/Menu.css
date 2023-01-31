@@ -1,6 +1,6 @@
 .container-menu {
     height: 100vh;
-    margin-left: -12px;
+    width: 270px;
 }
 
 .logotipo {
@@ -9,7 +9,6 @@
     padding-top: 24px;
     padding-left: 48px;
     padding-right: 24px;
-    width: 265px;
 }
 
 .logo-icon {
@@ -56,7 +55,6 @@
 .dashboard-button::before {
     content: "";
     position: absolute;
-    
     right: 0px;
     bottom: -50px;
     height: 50px;
@@ -68,9 +66,8 @@
 .dashboard-button::after {
     content: "";
     position: absolute;
-    
     right: 0;
-    bottom: 48px;
+    bottom: 52px;
     height: 50px;
     width: 32px;
     border-bottom-right-radius: 25px;
@@ -109,5 +106,9 @@
     font-weight: 500;
     color: #fff;
     padding-left: 12px;
+}
+
+.link {
+    text-decoration: none;
 }
 

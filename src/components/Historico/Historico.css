@@ -44,19 +44,7 @@
     margin-bottom: 48px;
     width: 1138px;
     margin-right: 16px;
-    box-shadow: 0px 8px 20px 2px rgba(0,0,0,.1);
-}
-
-.historico-cards:hover {
-    display: flex;
-    align-items: center;
-    margin-left: 32px;
-    background-color: #fff;
-    border-radius: 6px;
-    margin-bottom: 48px;
-    width: 1138px;
-    margin-right: 16px;
-    box-shadow: 0px 10px 20px 2px rgba(0,0,0,.2);
+    box-shadow: 0px 2px 20px 2px rgba(0,0,0,.1);
 }
 
 .historico-card {
@@ -109,7 +97,7 @@
 .historico-card-last {
     margin-left: 32px;
     height: 330px;
-    box-shadow: 0px 8px 20px 2px rgba(0,0,0,.1);
+    box-shadow: 0px 2px 20px 2px rgba(0,0,0,.1);
     cursor: pointer;
 }
 
@@ -124,9 +112,9 @@
     display: grid;
     align-items: center;
     justify-content: flex-start;
-    width: 368px;
+    width: 362px;
     height: 326px;
-    padding-left: 16px;
+    padding-left: 18px;
 }
 
 .bg-card-last {

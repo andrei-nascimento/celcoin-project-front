@@ -1,6 +1,6 @@
 # Projeto Celcoin Frontend
 
-## Painel Médico - Teste
+## 🩺 Painel Médico - Teste
 
 Esta é uma aplicação construída a partir de um desafio de frontend da empresa Celcoin, desenvolvida em React e tendo como referência de layout o Figma.
 
